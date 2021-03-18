@@ -573,8 +573,8 @@ padding: 63px 24px;
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.project:hover .project-overlay,
-.project:focus .project-overlay {
+.project .link:hover .project-overlay,
+.project .link:focus .project-overlay {
   transform: translateY(0);
 }
 
